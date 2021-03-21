@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menuselect</title>
+</head>
+<body>
+    <h1>원하는 음식에 체크를 하고 맨 아래 버튼을 눌러 뽑아보세요 !</h1>
+    <form method="GET"  action="menuroulette.html"> 
+    <div class="list-group">
+            <label >
+                <input type="checkbox" name="param1" value="치킨">
+                치킨
+            </label>
+            <label>
+                <input type="checkbox" name="param2" value="피자">
+                피자
+            </label>
+            <label >
+                <input type="checkbox" name="param3" value="떡볶이">
+                떡볶이
+            </label>
+            <label >
+                <input type="checkbox" name="param4" value="돈까스">
+                돈까스
+            </label>
+            <label >
+                <input type="checkbox" name="param5" value="한식">
+                한식
+            </label>
+            <label >
+                <input type="checkbox" name="param6" value="마라탕">
+                마라탕
+            </label>
+            <label >
+                <input type="checkbox" name="param7" value="쌀국수">
+                쌀국수
+            </label>
+            <label >
+                <input type="checkbox" name="param8" value="일식">
+                일식
+            </label>
+            <label >
+                <input type="checkbox" name="param9" value="중국집">
+                중국집
+            </label>
+            <label >
+                <input type="checkbox" name="param10" value="족발,보쌈">
+                족발,보쌈
+            </label>
+            <label >
+                <input type="checkbox" name="param11" value="양식">
+                양식
+            </label>
+            <label >
+                <input type="checkbox" name="param12" value="해장국">
+                해장국
+            </label>
+            <label >
+                <input type="checkbox" name="param13" value="패스트푸드">
+                패스트푸드
+            </label>
+            <label >
+                <input type="checkbox" name="param14" value="채식">
+                채식
+            </label>
+            <label >
+                <input type="checkbox" name="param15" value="고기">
+                고기
+            </label>
+        <link rel="stylesheet" href="menuselect.css">
+    </div>
+    <button type="button" class="btn btn-ranmenu"> 음식 뽑기! </button></a>
+        <script>
+            var btn = document.querySelector('[type="button"]');
+        btn.addEventListener('click', function() {
+            var checkbox = document.querySelectorAll('[name^="param"]:checked');
+            if(!checkbox.length) {
+                alert("선택 값이 없습니다!");
+                return false;
+            }
+            var num = Math.floor(Math.random() * checkbox.length);
+            location.href = 'menuroulette.html?q=' + checkbox[num].value;
+        });
+        </script>
+</form>
+</body>
+</html>

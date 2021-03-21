@@ -1,0 +1,221 @@
+
+h1{text-align: center;
+    top:85%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+font-size: 15px;
+color: mediumpurple;
+}
+
+.list-group label:nth-child(1){
+    background-color:rgb(236, 205, 28) ;
+    width: 140px;
+    height: 32px;
+    font-size: 22px;
+    color:white;
+    border: none;
+    position:absolute;
+    top:5%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.list-group label:nth-child(2){
+    background-color:tomato ;
+    width: 140px;
+    height: 32px;
+    font-size: 22px;
+    color:white;
+    border: none;
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.list-group label:nth-child(3){
+    background-color:red ;
+    width: 140px;
+    height: 32px;
+    font-size: 22px;
+    color:white;
+    border: none;
+    position:absolute;
+    top:15%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.list-group label:nth-child(4){
+    background-color:sienna;
+    width: 140px;
+    height: 32px;
+    font-size: 22px;
+    color:white;
+    border: none;
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.list-group label:nth-child(5){
+    background-color:rgb(4, 177, 4) ;
+    width: 140px;
+    height: 32px;
+    font-size: 22px;
+    color:white;
+    border: none;
+    position:absolute;
+    top:25%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.list-group label:nth-child(6){
+    background-color:rgb(255, 124, 101);
+    width: 140px;
+    height: 32px;
+    font-size: 22px;
+    color:white;
+    border: none;
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.list-group label:nth-child(7){
+    background-color:moccasin ;
+    width: 140px;
+    height: 32px;
+    font-size: 22px;
+    color:white;
+    border: none;
+    position:absolute;
+    top:35%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.list-group label:nth-child(8){
+    background-color:salmon ;
+    width: 140px;
+    height: 32px;
+    font-size: 22px;
+    color:white;
+    border: none;
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.list-group label:nth-child(9){
+    background-color:saddlebrown ;
+    width: 140px;
+    height: 32px;
+    font-size: 22px;
+    color:white;
+    border: none;
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.list-group label:nth-child(10){
+    background-color:lightgrey ;
+    width: 140px;
+    height: 32px;
+    font-size: 22px;
+    color:white;
+    border: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.list-group label:nth-child(11){
+    background-color:peru ;
+    width: 140px;
+    height: 32px;
+    font-size: 22px;
+    color:white;
+    border: none;
+    position:absolute;
+    top:55%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.list-group label:nth-child(12){
+    background-color:olivedrab;
+    width: 140px;
+    height: 32px;
+    font-size: 22px;
+    color:white;
+    border: none;
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.list-group label:nth-child(13){
+    background-color:lightsalmon;
+    width: 140px;
+    height: 32px;
+    font-size: 22px;
+    color:white;
+    border: none;
+    position:absolute;
+    top:65%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.list-group label:nth-child(14){
+    background-color:lime ;
+    width: 140px;
+    height: 32px;
+    font-size: 22px;
+    color:white;
+    border: none;
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.list-group label:nth-child(15){
+    background-color:darkred ;
+    width: 140px;
+    height: 32px;
+    font-size: 22px;
+    color:white;
+    border: none;
+    position:absolute;
+    top:75%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.list-group label:hover{
+    background-color:rgb(255, 214, 221);
+    cursor: pointer;
+    transition:0.5s;
+}
+
+.btn-ranmenu {
+    width: 140px;
+    height: 32px;
+    background-color:blue;
+    outline-color: blue;
+    color :white;
+    font-size: 22px;
+    border: none;
+    position:absolute;
+    top:80%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+
+}
+button:focus{
+    outline: 0;
+}
+
+.btn-ranmenu:hover{
+    background-color:rgb(255, 214, 221);
+    cursor: pointer;
+}
