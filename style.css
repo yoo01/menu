@@ -46,3 +46,11 @@ button:focus{
     background-color:rgb(255, 214, 221);
     cursor: pointer;
 }
+
+
+.btn-info{
+    position:absolute;
+    top:80%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
